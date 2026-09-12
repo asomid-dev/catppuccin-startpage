@@ -29,12 +29,12 @@ const default_configuration = {
       p: ["https://www.perplexity.ai/search/?q=", "PerplexityAI"],
       d: ["https://duckduckgo.com/?q=", "DuckDuckGo"],
       g: ["https://google.com/search?q=", "Google"],
-      ge: ["https://gemini.google.com/app?q=", "Gemini"],
     },
     default: "g",
   },
   keybindings: {
     "s": "search-bar",
+    "S": "search-bar",
   },
   disabled: [],
   localIcons: true,
@@ -93,15 +93,15 @@ const default_configuration = {
           links: [
             { name: "Jutge", url: "https://jutge.org/", icon: "hammer", icon_color: palette.green },
             { name: "EDA", url: "https://www.cs.upc.edu/eda/", icon: "file-code", icon_color: palette.red },
-            { name: "SQL", url: "https://learnsql3.fib.upc.edu/moodle/login/index.php", icon: "zoom-check", icon_color: palette.blue },
+            { name: "SQL", url: "https://learnsql3.fib.upc.edu/moodle/login/index.php", icon: "database", icon_color: palette.blue },
           ],
         },
         {
           name: "webpages",
           links: [
-            { name: "EC Web", url: "https://docencia.ac.upc.edu/FIB/grau/EC/", icon: "device-desktop", icon_color: palette.red },
-            { name: "M1 Web", url: "https://web.mat.upc.edu/fib/matematiques1/index_english.htm", icon: "topology-full", icon_color: palette.peach },
-            { name: "Sawix", url: "https://apunts-pro2.vercel.app/", icon: "text-recognition", icon_color: palette.sky },
+            { name: "PE Web", url: "https://docencia.ac.upc.edu/FIB/grau/EC/", icon: "math-symbols", icon_color: palette.red },
+            { name: "SO Web", url: "https://web.mat.upc.edu/fib/matematiques1/index_english.htm", icon: "brand-ubuntu", icon_color: palette.peach },
+            { name: "Aula UOC", url: "https://aula.uoc.edu/", icon: "chalkboard-teacher", icon_color: palette.sky },
           ],
         },
       ],
