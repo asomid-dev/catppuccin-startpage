@@ -99,9 +99,9 @@ const default_configuration = {
         {
           name: "webpages",
           links: [
-            { name: "PE Web", url: "https://docencia.ac.upc.edu/FIB/grau/EC/", icon: "math-symbols", icon_color: palette.red },
-            { name: "SO Web", url: "https://web.mat.upc.edu/fib/matematiques1/index_english.htm", icon: "brand-ubuntu", icon_color: palette.peach },
-            { name: "Aula UOC", url: "https://aula.uoc.edu/", icon: "chalkboard-teacher", icon_color: palette.sky },
+            { name: "PE Web", url: "https://www-eio.upc.es/teaching/pe/", icon: "math-symbols", icon_color: palette.red },
+            { name: "SO Web", url: "https://docencia.ac.upc.edu/FIB/grau/SO/", icon: "brand-ubuntu", icon_color: palette.peach },
+            { name: "Aula UOC", url: "https://aula.uoc.edu/", icon: "school", icon_color: palette.sky },
           ],
         },
       ],
